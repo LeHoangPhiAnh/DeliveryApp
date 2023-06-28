@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "DeliveryApp",
+    "slug": "DeliveryApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "package": "com.DeliveryApp",
+        "googleServicesFile": "./google-services.json"
+      },
+      "foregroundImage": "./assets/adaptive-icon.png",
+      "backgroundColor": "#FFFFFF"
+    },
+    "plugins": [
+      "@react-native-google-signin/google-signin"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f0c2ad57-74e7-4dd0-b2d2-ee3e6cdc1d4b"
+      }
+    }
+  },
+  "web": {
+    "favicon": "./assets/favicon.png"
+  }
+}
